@@ -20,12 +20,12 @@
         }
 
         public void printSotrInfo() {
-            System.out.println("ФИО:" + name);
-            System.out.println("; Должность:" + position);
-            System.out.println("; e-mail:" + email);
-            System.out.println("; Телефон:" + phone);
-            System.out.println("; Зарплата" + salary);
-            System.out.println("; Возраст" + age);
+            System.out.println(" ФИО: " + name + ";");
+            System.out.println(" Должность: " + position + ";");
+            System.out.println(" e-mail: " + email + ";");
+            System.out.println(" Телефон: " + phone + ";");
+            System.out.println(" Зарплата: " + salary + ";");
+            System.out.println(" Возраст: " + age + ".");
         }
 
         public static void main(String[] args) {
@@ -38,7 +38,7 @@
             };
 
             for (Employee employee : persArr){
-                Employee.printSotrInfo();
+                employee.printSotrInfo();
             }
 
         }
